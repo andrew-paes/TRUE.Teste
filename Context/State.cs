@@ -13,4 +13,9 @@ namespace LiteDB.Windows.Service.Context
         public String Msg { get; set; }
         public String Error { get; set; }
     }
+	
+	public string TesteFeat2(int id)
+	{
+		return "A Label";
+	}
 }
